@@ -1,4 +1,18 @@
 {
+  "name": "detox-root",
+  "description": "E2E tests and automation for mobile",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssg-luke/detox.git"
+  },
+  "nativePackage": true,
+  "bugs": {
+    "url": "https://github.com/ssg-luke/detox/issues"
+  },
+  "homepage": "https://github.com/wix/detox#readme",
+  "author": "Tal Kol <talkol@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "test:e2e:ios": "pushd detox/test && npm run e2e:ios && popd",
     "test:e2e:android": "pushd detox/test && npm run e2e:android && popd",
